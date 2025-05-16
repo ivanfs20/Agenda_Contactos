@@ -56,7 +56,7 @@ $oAdmin = new Administracion();
 		$sErr = "Falta establecer el login";
 	
 	if ($sErr == "")
-		header("Location: tabpersonal.php");
+		header("Location: tabAdmin.php");
 	else
 		header("Location: error.php?sError=".$sErr);
 	exit();
