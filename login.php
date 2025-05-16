@@ -1,9 +1,5 @@
 <?php
-/*
-Archivo:  login.php
-Objetivo: verifica clave y contraseña contra repositorio a través de clases
-Autor:   
-*/
+
 include_once("model/Usuario.php");
 session_start();
 $sErr="";

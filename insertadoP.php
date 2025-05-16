@@ -7,6 +7,6 @@ $oUsuario = unserialize($_SESSION["usuario"]);
 $oUsuario->insertar();
 
 unset($_SESSION["usuario"]);
-header("Location: tabpersonal.php");
+header("Location: tabAdmin.php");
 exit();
 ?>

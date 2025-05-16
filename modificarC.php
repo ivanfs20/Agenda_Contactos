@@ -11,23 +11,8 @@
 
 
 <?php 
-// $conexion = pg_connect("host=localhost port=5432 user=nombreUsuario password=passwordUsuario dbname=nomBD", PGSQL_CONNECT_FORCE_NEW);
-// $conexion = pg_connect("host=localhost dbname=BASE_DE_DATOS user=USUARIO password=CONTRASEÑA");		
-
 echo '<script src="js/au.js"></script>';
 echo '<script>mostrar("modificar", "Se ha modificado correctamente","modificadoC.php");</script>';
-
-/*
-$nom=$_GET['Nombre'];
-$mysql = new mysqli("localhost", "root", "", "agenda");
-$Query = "delete from contactos where nombre='".$nom."'";
-$Result = $mysql->query( $Query );
-
-if($Result!=null)
-   	print("Se elimino con éxito el registro.");
-else
-  	print("No se pudo eliminar");
-*/
 ?>
 </table>
 </body>

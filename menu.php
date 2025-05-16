@@ -9,7 +9,7 @@
         <ul>
 		<li><a href="inicio.php" class="menu">Inicio</a></li>
 
-          <li><a href="tabpersonal.php" class="menu">ABC Personal</a></li>
+          <li><a href="tabAdmin.php" class="menu">ABC Personal</a></li>
           <li><a href="tabContactos.php" class="menu">ABC Contactos</a></li>
   		  <li><a href="logout.php" class="menu">Salir</a></li>
         </ul>

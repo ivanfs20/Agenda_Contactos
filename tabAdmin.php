@@ -37,7 +37,7 @@ $oAdmin = new Administracion();
 ?>
 		<section>
 			<h3>Personal Agendas</h3>
-			<form name="formTablaGral" method="post" action="abcPersHosp.php">
+			<form name="formTablaGral" method="post" action="abcAdmin.php">
 				<input type="hidden" name="txtClave">
 				<input type="hidden" name="txtOpe">
 				<table border="1">
