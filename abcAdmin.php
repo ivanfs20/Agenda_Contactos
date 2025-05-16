@@ -97,7 +97,7 @@ $oPersHosp = new Administracion();
 				<input type ="submit" value="<?php echo $sNomBoton;?>" 
 				onClick="return evalua(txtNombre, txtApePat, rbSexo, txtFecNacim);" style="margin:2; background-color:black; color: white;"/>
 				<input type="submit" name="Submit" value="Cancelar" 
-				 onClick="abcPH.action='tabpersonal.php';" style="margin:2; background-color:black; color: white;">
+				 onClick="abcPH.action='tabAdmin.php';" style="margin:2; background-color:black; color: white;">
 			</form>
 		</section>
 <?php
